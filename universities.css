@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+H2{
+    text-align: center;
+    color: rgb(1, 6, 12);
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+#profile-section {
+    background-color: rgb(47, 71, 60);
+    text-align: center;
+    color: white;
+    transition: cubic-bezier(0.25, 0.1, 0.25, 1);
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+.tagline{
+    font-size: 10px;
+    font-weight: bold;
+    text-align-last: right;
+    color: rgb(1, 6, 12);
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: rgb(19, 216, 206)
+}
+.varsity-card{
+    background-color: rgb(23, 158, 75);
+    border: 5px solid #b6b1b1;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(60, 35, 68, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 350px;
+    transition: transform 0.3s ease;
+}
+
+/***********Styling for the university cards******/
+.varsity-card:hover {
+    transform: scale(1.05);
+}
+
+#varsity-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: black;
+    max-block-size: none;
+
+}
+img{
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(1.05);
+}
